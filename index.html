@@ -16,10 +16,7 @@
 <li><a href="#faq-on-differential-privacy-dp">FAQ on Differential Privacy (DP)</a>
 <ul>
 <li><a href="#a.-general-questions">A. General Questions</a></li>
-<li><a href="#c.-privacy-related-questions">C. Privacy-Related Questions</a></li>
-<li><a href="#d.-utility-related-questions">D. Utility-Related Questions</a></li>
-<li><a href="#d.-complexity-related-questions">D. Complexity-Related Questions</a></li>
-<li><a href="#e.-machine-learning-related-questions">E. Machine-Learning-Related Questions</a></li>
+<li><a href="#b.-domain-specific-questions">B. Domain-Specific Questions</a></li>
 </ul>
 </li>
 </ul>
@@ -30,21 +27,29 @@
     <div class="stackedit__html">
       <h1 id="faq-on-differential-privacy-dp">FAQ on Differential Privacy (DP)</h1>
 <h2 id="a.-general-questions">A. General Questions</h2>
+<p>These are the general questions that people who want to use DP, for any purpose, are supposed to know them.</p>
+<hr>
 <ol>
-<li>
-<p>What is <strong>epsilon</strong>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span>, in <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo separator="true">,</mo><mi>δ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\epsilon, \delta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">ϵ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span><span class="mclose">)</span></span></span></span></span>-DP?</p>
-</li>
-<li>
-<p>Waht is <strong>delta</strong>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>δ</mi></mrow><annotation encoding="application/x-tex">\delta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span></span></span></span></span>, in <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo separator="true">,</mo><mi>δ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\epsilon, \delta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">ϵ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span><span class="mclose">)</span></span></span></span></span>-DP?</p>
-</li>
-<li>
-<p>What is the differences between <strong>Pure DP</strong> and <strong>Approximate DP</strong>?</p>
-</li>
+<li>What is <strong>epsilon</strong>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span>, in <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo separator="true">,</mo><mi>δ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\epsilon, \delta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">ϵ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span><span class="mclose">)</span></span></span></span></span>-DP?</li>
 </ol>
-<h2 id="c.-privacy-related-questions">C. Privacy-Related Questions</h2>
-<h2 id="d.-utility-related-questions">D. Utility-Related Questions</h2>
-<h2 id="d.-complexity-related-questions">D. Complexity-Related Questions</h2>
-<h2 id="e.-machine-learning-related-questions">E. Machine-Learning-Related Questions</h2>
+<hr>
+<ol start="2">
+<li>Waht is <strong>delta</strong>, <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>δ</mi></mrow><annotation encoding="application/x-tex">\delta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.69444em; vertical-align: 0em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span></span></span></span></span>, in <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mi>ϵ</mi><mo separator="true">,</mo><mi>δ</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\epsilon, \delta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">ϵ</span><span class="mpunct">,</span><span class="mspace" style="margin-right: 0.166667em;"></span><span class="mord mathdefault" style="margin-right: 0.03785em;">δ</span><span class="mclose">)</span></span></span></span></span>-DP?</li>
+</ol>
+<hr>
+<ol start="3">
+<li>What are the differences between <strong>Pure DP</strong> and <strong>Approximate DP</strong>?</li>
+</ol>
+<hr>
+<ol start="4">
+<li></li>
+</ol>
+<h2 id="b.-domain-specific-questions">B. Domain-Specific Questions</h2>
+<p>These are the general questions that people who want to use DP, for a specific purpose such as estimating a specific statistic, training a machine learning model on private data, or etc. may find them useful.</p>
+<hr>
+<ol>
+<li></li>
+</ol>
 
     </div>
   </div>
