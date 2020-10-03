@@ -1,5 +1,4 @@
-### Homepage:
-https://dpfaq.github.io
+### Homepage:[dpfaq.github.io](https://dpfaq.github.io)
 
 #### 1. If you cannot find your question, please create an [Issue](https://github.com/dpfaq/dpfaq.github.io/issues/new).
 
