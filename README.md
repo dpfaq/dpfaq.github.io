@@ -9,4 +9,4 @@ https://dpfaq.github.io/
 
 *Please first check to see whtehre a similar issue has already been creatd or not.*
 
-#### 3. If you have any other idea to improve this document: Create an [Issue](https://github.com/dpfaq/dpfaq.github.io/issues/new).
+#### 3. If you have any other ideas to improve this project: Create an [Issue](https://github.com/dpfaq/dpfaq.github.io/issues/new).
